@@ -1,0 +1,96 @@
+/* // delete the following line if no text is used
+// edit the line if you wanna use other fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+// use only the available space inside the 400x400 frame */
+.frame {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -200px;
+	border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	background: #fff;
+	color: #333;
+	font-family: "Courier New", "Courier", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: linear-gradient(to right top, #43389f, #4ec6ca);
+	box-sizing: border-box;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.number {
+	height: 100px;
+	width: 200px;
+	position: relative;
+	margin-left: 7px;
+}
+
+.one-one {
+	position: absolute;
+	height: 40%;
+	width: 20px;
+	background: white;
+	border-radius: 3px;
+	transform: rotate(50deg);
+	left: -18px;
+	z-index: 1;
+	box-shadow: 0 0 13px 0 rgb(0 0 0 / 20%);
+}
+
+.one-two {
+	height: 90%;
+	width: 20px;
+	background: white;
+	border-radius: 3px;
+	z-index: 10;
+	position: absolute;
+	box-shadow: 0 0 13px 0 rgb(0 0 0 / 20%);
+}
+
+.zero-one,
+.zero-two {
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	border: 24px solid #fff;
+	box-shadow: 0 0 13px 0 rgb(0 0 0 / 20%);
+	position: absolute;
+	left: 17px;
+}
+
+.zero-one {
+	z-index: 5;
+}
+
+.zero-two {
+	left: 100px;
+	z-index: 2;
+}
+
+.days {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 82px;
+	line-height: 60px;
+}
+
+.css {
+	text-transform: uppercase;
+	font-size: 23px;
+	color: white;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
